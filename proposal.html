@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NeoGen Technologies × Resonating Brands | Subcontractor Partnership Proposal</title>
+  <meta name="description" content="In-depth subcontractor proposal for Resonating Brands: Website Builder & SEO/AEO/GEO Specialist by NeoGen Technologies." />
+  
+  <!-- Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      /* Brand Color Palette: Merging Resonating Brands & NeoGen Technologies */
+      --rb-navy: #20414f;
+      --rb-navy-dark: #142a34;
+      --rb-navy-light: #2c5669;
+      --rb-green: #6ba439;
+      --rb-green-hover: #5d9130;
+      --rb-green-glow: rgba(107, 164, 57, 0.25);
+      
+      --neogen-cyan: #00d2ff;
+      --neogen-blue: #0066ff;
+      --neogen-gradient: linear-gradient(135deg, #00d2ff 0%, #0066ff 100%);
+      
+      --bg-light: #f8fafc;
+      --bg-white: #ffffff;
+      --card-bg: #ffffff;
+      --border-color: #e2e8f0;
+      --border-subtle: #edf2f7;
+      
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --text-light: #94a3b8;
+      
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+      --shadow-glow: 0 0 35px var(--rb-green-glow);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg-light);
+      color: var(--text-main);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4, .brand-font {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      color: var(--rb-navy);
+      letter-spacing: -0.02em;
+    }
+
+    code, pre {
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Top Sticky Navigation Bar */
+    .top-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(32, 65, 79, 0.95);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+
+    .nav-brand-container {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+    }
+
+    .nav-badges {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .brand-pill {
+      font-size: 0.8rem;
+      font-weight: 700;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+    }
+
+    .pill-neogen {
+      background: linear-gradient(135deg, rgba(0, 210, 255, 0.2), rgba(0, 102, 255, 0.25));
+      color: #7dd3fc;
+      border: 1px solid rgba(0, 210, 255, 0.4);
+    }
+
+    .pill-neogen::before {
+      content: "✦";
+      color: var(--neogen-cyan);
+    }
+
+    .pill-client {
+      background: rgba(107, 164, 57, 0.2);
+      color: #bef264;
+      border: 1px solid rgba(107, 164, 57, 0.4);
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.875rem;
+      font-weight: 600;
+      padding: 0.6rem 1.15rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-primary {
+      background-color: var(--rb-green);
+      color: white;
+      box-shadow: 0 4px 12px var(--rb-green-glow);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--rb-green-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn-outline-white {
+      background: rgba(255, 255, 255, 0.08);
+      color: white;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-outline-white:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      background: radial-gradient(circle at 85% 20%, #2c5669 0%, var(--rb-navy) 60%, var(--rb-navy-dark) 100%);
+      color: white;
+      padding: 5rem 0 4.5rem;
+      position: relative;
+      overflow: hidden;
+      border-bottom: 4px solid var(--rb-green);
+    }
+
+    .hero-section::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+      background-size: 24px 24px;
+      pointer-events: none;
+    }
+
+    .hero-meta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--rb-green);
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      background: rgba(107, 164, 57, 0.15);
+      padding: 0.4rem 0.9rem;
+      border-radius: 999px;
+      border: 1px solid rgba(107, 164, 57, 0.3);
+    }
+
+    .hero-title {
+      font-size: clamp(2.2rem, 4vw, 3.4rem);
+      line-height: 1.15;
+      color: white;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-title span {
+      background: linear-gradient(135deg, #a3e635 0%, #6ba439 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-subtitle {
+      font-size: 1.15rem;
+      color: #cbd5e1;
+      max-width: 820px;
+      margin-bottom: 2.25rem;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+
+    .hero-tags-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .hero-stat-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius-md);
+      padding: 1.1rem 1.25rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.85rem;
+      backdrop-filter: blur(8px);
+    }
+
+    .stat-icon {
+      font-size: 1.4rem;
+      line-height: 1;
+      background: rgba(107, 164, 57, 0.2);
+      padding: 0.5rem;
+      border-radius: var(--radius-sm);
+      color: #bef264;
+    }
+
+    .stat-text h4 {
+      color: white;
+      font-size: 0.95rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .stat-text p {
+      color: #94a3b8;
+      font-size: 0.82rem;
+      line-height: 1.4;
+    }
+
+    /* Main Content Sections */
+    .section {
+      padding: 4.5rem 0;
+    }
+
+    .section-header {
+      margin-bottom: 2.5rem;
+    }
+
+    .section-tag {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--rb-green);
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      color: var(--rb-navy);
+      margin-bottom: 0.6rem;
+    }
+
+    .section-desc {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 720px;
+    }
+
+    /* Executive Letter / Callout Card */
+    .letter-card {
+      background: var(--bg-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-md);
+      padding: 2.5rem;
+      position: relative;
+      margin-bottom: 2.5rem;
+    }
+
+    .letter-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      width: 6px;
+      background: linear-gradient(to bottom, var(--rb-green), var(--rb-navy));
+      border-top-left-radius: var(--radius-lg);
+      border-bottom-left-radius: var(--radius-lg);
+    }
+
+    .letter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 1.25rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .letter-recipient h3 {
+      font-size: 1.2rem;
+      color: var(--rb-navy);
+    }
+
+    .letter-recipient p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+
+    .letter-badge {
+      background: #f1f5f9;
+      color: var(--rb-navy);
+      padding: 0.4rem 0.85rem;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.82rem;
+      border: 1px solid var(--border-color);
+    }
+
+    .letter-body p {
+      margin-bottom: 1.15rem;
+      color: #334155;
+      font-size: 1.02rem;
+      line-height: 1.7;
+    }
+
+    .quote-box {
+      background: #f0fdf4;
+      border-left: 4px solid var(--rb-green);
+      padding: 1.25rem 1.5rem;
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      margin: 1.5rem 0;
+      font-style: italic;
+      color: #166534;
+      font-weight: 500;
+      font-size: 1.05rem;
+    }
+
+    /* Comparison Grid: SEO vs AEO vs GEO */
+    .trifecta-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .trifecta-card {
+      background: var(--bg-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+      padding: 1.85rem;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .trifecta-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: #cbd5e1;
+    }
+
+    .trifecta-header {
+      margin-bottom: 1.25rem;
+    }
+
+    .trifecta-pill {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      margin-bottom: 0.6rem;
+    }
+
+    .pill-blue { background: #e0f2fe; color: #0369a1; }
+    .pill-green { background: #dcfce7; color: #15803d; }
+    .pill-purple { background: #f3e8ff; color: #7e22ce; }
+
+    .trifecta-card h3 {
+      font-size: 1.3rem;
+      color: var(--rb-navy);
+      margin-bottom: 0.4rem;
+    }
+
+    .trifecta-sub {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      min-height: 42px;
+    }
+
+    .trifecta-list {
+      list-style: none;
+      margin-top: 1rem;
+      flex-grow: 1;
+    }
+
+    .trifecta-list li {
+      position: relative;
+      padding-left: 1.4rem;
+      margin-bottom: 0.75rem;
+      font-size: 0.92rem;
+      color: #334155;
+    }
+
+    .trifecta-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--rb-green);
+      font-weight: 700;
+    }
+
+    .trifecta-focus {
+      background: #f8fafc;
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1rem;
+      margin-top: 1.25rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      border: 1px solid var(--border-subtle);
+    }
+
+    .trifecta-focus strong {
+      color: var(--rb-navy);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    /* 6-Stage Pipeline Timeline */
+    .pipeline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .pipeline-card {
+      background: var(--bg-white);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-color);
+      padding: 1.5rem;
+      position: relative;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .pipeline-step-badge {
+      position: absolute;
+      top: 1.25rem;
+      right: 1.25rem;
+      background: #f1f5f9;
+      color: var(--rb-navy);
+      font-size: 0.78rem;
+      font-weight: 800;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid var(--border-color);
+    }
+
+    .pipeline-card h4 {
+      font-size: 1.1rem;
+      color: var(--rb-navy);
+      margin-bottom: 0.5rem;
+      padding-right: 2.5rem;
+    }
+
+    .pipeline-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin-bottom: 0.85rem;
+    }
+
+    .pipeline-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .p-tag {
+      font-size: 0.72rem;
+      background: #f8fafc;
+      color: #475569;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      border: 1px solid #e2e8f0;
+      font-weight: 500;
+    }
+
+    /* Systems & Code Previewer */
+    .code-preview-container {
+      background: #0f172a;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-xl);
+      border: 1px solid #334155;
+      margin: 2rem 0;
+    }
+
+    .code-tabs {
+      display: flex;
+      background: #1e293b;
+      border-bottom: 1px solid #334155;
+      padding: 0 0.5rem;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      color: #94a3b8;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.85rem 1.25rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active {
+      color: #38bdf8;
+      border-bottom-color: #38bdf8;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .tab-btn:hover:not(.active) {
+      color: #cbd5e1;
+    }
+
+    .code-content {
+      padding: 1.5rem;
+      max-height: 420px;
+      overflow-y: auto;
+      font-size: 0.85rem;
+      color: #e2e8f0;
+      line-height: 1.6;
+    }
+
+    .code-content pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .code-header-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 1.25rem;
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.78rem;
+    }
+
+    .copy-code-btn {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: white;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.75rem;
+    }
+
+    .copy-code-btn:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Graphics and Infographics */
+    .infographic-wrapper {
+      margin-bottom: 2.5rem;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      border: 1px solid var(--border-color);
+      background: #0d1922;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .infographic-wrapper:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .infographic-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+    }
+
+    .case-img-wrap {
+      width: 100%;
+      height: 220px;
+      overflow: hidden;
+      background: #0f172a;
+      position: relative;
+      border-bottom: 1px solid var(--border-subtle);
+    }
+
+    .case-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+      display: block;
+    }
+
+    .case-card:hover .case-img {
+      transform: scale(1.05);
+    }
+
+    /* Portfolio Case Studies */
+    .case-studies-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .case-card {
+      background: var(--bg-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.25s ease;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .case-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+      border-color: #cbd5e1;
+    }
+
+    .case-badge-bar {
+      padding: 1.25rem 1.5rem 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .case-category {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--rb-navy);
+      background: #f1f5f9;
+      padding: 0.25rem 0.6rem;
+      border-radius: 4px;
+    }
+
+    .case-perf {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #16a34a;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .case-perf-circle {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #16a34a;
+    }
+
+    .case-body {
+      padding: 1rem 1.5rem 1.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .case-body h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.4rem;
+      color: var(--rb-navy);
+    }
+
+    .case-location {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .case-body p {
+      font-size: 0.92rem;
+      color: #334155;
+      line-height: 1.6;
+      margin-bottom: 1.25rem;
+      flex-grow: 1;
+    }
+
+    .case-features {
+      border-top: 1px solid var(--border-subtle);
+      padding-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .case-feature-item {
+      font-size: 0.85rem;
+      color: #475569;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .case-feature-item svg {
+      color: var(--rb-green);
+      flex-shrink: 0;
+    }
+
+    /* QA Checklist Box */
+    .qa-box {
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+      padding: 2.25rem;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .qa-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+
+    .qa-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      padding: 0.75rem;
+      background: #f8fafc;
+      border-radius: var(--radius-sm);
+      border: 1px solid #edf2f7;
+    }
+
+    .qa-check {
+      color: var(--rb-green);
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 1;
+      margin-top: 0.1rem;
+    }
+
+    .qa-info h5 {
+      font-size: 0.9rem;
+      color: var(--rb-navy);
+      margin-bottom: 0.15rem;
+    }
+
+    .qa-info p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    /* Terms & Availability Matrix */
+    .terms-card {
+      background: linear-gradient(135deg, #20414f 0%, #142a34 100%);
+      color: white;
+      border-radius: var(--radius-xl);
+      padding: 3rem;
+      box-shadow: var(--shadow-xl);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .terms-card::after {
+      content: "";
+      position: absolute;
+      bottom: -40px;
+      right: -40px;
+      width: 250px;
+      height: 250px;
+      background: radial-gradient(circle, rgba(107, 164, 57, 0.3) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .terms-header h3 {
+      color: white;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .terms-header p {
+      color: #94a3b8;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+
+    .terms-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+
+    .terms-table th, .terms-table td {
+      padding: 1rem 1.25rem;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+
+    .terms-table th {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--rb-green);
+      font-weight: 700;
+    }
+
+    .terms-table td {
+      font-size: 0.95rem;
+      color: #e2e8f0;
+    }
+
+    .terms-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .rate-highlight {
+      color: #bef264;
+      font-weight: 700;
+      font-size: 1.15rem;
+    }
+
+    /* Email Application Composer */
+    .email-composer-card {
+      background: white;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      margin-top: 3rem;
+    }
+
+    .email-bar {
+      background: #f1f5f9;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .email-meta-labels {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .email-meta-labels span {
+      font-weight: 600;
+      color: var(--rb-navy);
+      margin-right: 1rem;
+    }
+
+    .email-body-content {
+      padding: 2rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 0.96rem;
+      color: #1e293b;
+      line-height: 1.7;
+      background: #fff;
+    }
+
+    .email-body-content p {
+      margin-bottom: 1.25rem;
+    }
+
+    .email-body-content ul {
+      margin: 1rem 0 1.5rem 1.5rem;
+    }
+
+    .email-body-content li {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Footer */
+    footer {
+      background: var(--rb-navy-dark);
+      color: #94a3b8;
+      padding: 3rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .footer-links a {
+      color: #cbd5e1;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .footer-links a:hover {
+      color: var(--rb-green);
+    }
+
+    /* Notification Toast */
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--rb-navy);
+      color: white;
+      padding: 0.85rem 1.5rem;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-xl);
+      border-left: 4px solid var(--rb-green);
+      font-size: 0.9rem;
+      font-weight: 600;
+      z-index: 9999;
+      display: none;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 900px) {
+      .trifecta-grid {
+        grid-template-columns: 1fr;
+      }
+      .terms-card {
+        padding: 2rem 1.5rem;
+      }
+      .terms-table th, .terms-table td {
+        padding: 0.75rem 0.5rem;
+        font-size: 0.88rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .top-nav {
+        padding: 0.75rem 1rem;
+      }
+      .nav-badges {
+        display: none;
+      }
+      .hero-section {
+        padding: 3.5rem 0 3rem;
+      }
+      .letter-card {
+        padding: 1.5rem 1.25rem;
+      }
+    }
+
+    /* Print Stylesheet for PDF Export */
+    @media print {
+      .top-nav, .nav-actions, .copy-code-btn, .toast, .tab-btn {
+        display: none !important;
+      }
+      body {
+        background: white !important;
+        color: black !important;
+        font-size: 11pt !important;
+      }
+      .hero-section {
+        background: none !important;
+        color: black !important;
+        padding: 1rem 0 !important;
+        border-bottom: 2px solid #333 !important;
+      }
+      .hero-title, .hero-title span {
+        color: black !important;
+        -webkit-text-fill-color: initial !important;
+      }
+      .hero-subtitle, .stat-text p {
+        color: #444 !important;
+      }
+      .letter-card, .trifecta-card, .pipeline-card, .case-card, .qa-box {
+        box-shadow: none !important;
+        border: 1px solid #ccc !important;
+        page-break-inside: avoid;
+      }
+      .terms-card {
+        background: white !important;
+        color: black !important;
+        border: 1px solid #ccc !important;
+      }
+      .terms-table th, .terms-table td {
+        color: black !important;
+        border-bottom: 1px solid #ddd !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <header class="top-nav">
+    <div class="nav-brand-container">
+      <div class="nav-badges">
+        <a href="https://neogentechnologies.com" target="_blank" rel="noopener" class="brand-pill pill-neogen">
+          NeoGen Technologies
+        </a>
+        <span style="color: rgba(255,255,255,0.4); font-size: 0.85rem;">✕</span>
+        <a href="https://resonatingbrands.com" target="_blank" rel="noopener" class="brand-pill pill-client">
+          Resonating Brands
+        </a>
+      </div>
+    </div>
+    
+    <div class="nav-actions">
+      <button class="btn btn-outline-white" onclick="window.print()">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path></svg>
+        Print / PDF
+      </button>
+      <button class="btn btn-primary" onclick="scrollToEmail()">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+        Review Application
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-meta">
+        <span>⚡ High-Velocity Subcontractor Proposal</span>
+      </div>
+      <h1 class="hero-title">
+        Next-Generation Websites for <span>Home Service Contractors</span>
+      </h1>
+      <p class="hero-subtitle">
+        Prepared specifically for <strong>Janette O’Shaughnessy</strong> & <strong>Resonating Brands (Holland, MI)</strong>. A purpose-built proposal by <strong>NeoGen Technologies</strong> demonstrating hands-on mastery of Lovable site building, deep SEO / AEO / GEO execution, GoHighLevel automation, and zero-fluff contractor lead generation.
+      </p>
+
+      <div class="hero-tags-grid">
+        <div class="hero-stat-card">
+          <div class="stat-icon">⚡</div>
+          <div class="stat-text">
+            <h4>20–30 Hours / Week</h4>
+            <p>Reliable capacity with full Eastern (EST) business hours overlap.</p>
+          </div>
+        </div>
+
+        <div class="hero-stat-card">
+          <div class="stat-icon">🏗️</div>
+          <div class="stat-text">
+            <h4>Lovable Native Builds</h4>
+            <p>Prompt-to-live domain velocity with clean code & custom React components.</p>
+          </div>
+        </div>
+
+        <div class="hero-stat-card">
+          <div class="stat-icon">🎯</div>
+          <div class="stat-text">
+            <h4>SEO • AEO • GEO</h4>
+            <p>Ranked in Google, cited in AI Overviews, and surfaced in ChatGPT & Perplexity.</p>
+          </div>
+        </div>
+
+        <div class="hero-stat-card">
+          <div class="stat-icon">📱</div>
+          <div class="stat-text">
+            <h4>Contractor Conversion</h4>
+            <p>Sticky click-to-call, GHL webhook routing, and sub-1.2s mobile loading.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 1: Executive Cover Letter -->
+  <section class="section" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Direct From NeoGen Technologies</span>
+        <h2 class="section-title">Why This Partnership Fits Resonating Brands Like a Glove</h2>
+        <p class="section-desc">We respect contractors, and we build websites that respect their time and their bottom line.</p>
+      </div>
+
+      <div class="letter-card">
+        <div class="letter-header">
+          <div class="letter-recipient">
+            <h3>To: Janette O’Shaughnessy & Resonating Brands Leadership</h3>
+            <p>Regarding: Website Builder & SEO/AEO/GEO Specialist (1099 Subcontractor)</p>
+          </div>
+          <div class="letter-badge">
+            West Michigan Alignment • EST Ready
+          </div>
+        </div>
+
+        <div class="letter-body">
+          <p>
+            When a homeowner in West Michigan hears water dripping through their ceiling at 2:00 AM or their furnace cuts out in a 12°F January blizzard, they aren’t looking for poetry or agency jargon. They are stressed, they are on a cracked smartphone screen, and they need a licensed professional who picks up the phone.
+          </p>
+
+          <p>
+            Your hiring document laid out the standard with crystal clarity: 
+          </p>
+
+          <div class="quote-box">
+            "Plain, clear writing. Our clients are contractors. If a sentence would make a roofer roll his eyes, it does not ship."
+          </div>
+
+          <p>
+            At <strong>NeoGen Technologies</strong>, we live by that exact principle. We don't build vanity websites; we build <strong>lead generation machines</strong> that convert cold mobile traffic into high-intent inbound calls and form submissions for trade contractors.
+          </p>
+
+          <p>
+            You need a builder who can pick up Lovable, take a brief for a new tree service in Grand Rapids or an HVAC team in Holland, and run the entire play from prompt to live domain without supervision: setting up the DNS, structuring the service area silos, injecting custom JSON-LD schemas, configuring GA4 / Search Console, and hooking up the LeadConnector / GoHighLevel CRM webhooks.
+          </p>
+
+          <p>
+            Below, we've broken down our exact operational methodology, our deep understanding of the SEO vs. AEO vs. GEO trifecta, our Claude-powered automation skills, and ready-to-inspect portfolio architectures.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Technical Philosophy (SEO vs AEO vs GEO) -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Search Disciplines</span>
+        <h2 class="section-title">The Search Trifecta: SEO vs. AEO vs. GEO</h2>
+        <p class="section-desc">You noted that you want someone who knows what AEO and GEO mean without looking them up. Here is how we engineer all three into every single client site:</p>
+      </div>
+
+      <!-- Search Trifecta Architecture Infographic -->
+      <div class="infographic-wrapper">
+        <img src="images/search-trifecta-diagram.jpg" alt="The Three Disciplines of Modern Search Optimization: Traditional SEO, AEO, and GEO" class="infographic-img" loading="lazy" />
+      </div>
+
+      <div class="trifecta-grid">
+        <!-- Card 1: Traditional SEO -->
+        <div class="trifecta-card">
+          <div class="trifecta-header">
+            <span class="trifecta-pill pill-blue">Traditional SEO</span>
+            <h3>Search Engine Optimization</h3>
+            <p class="trifecta-sub">Dominating organic blue links & Google Local 3-Pack Map listings.</p>
+          </div>
+          <ul class="trifecta-list">
+            <li><strong>Service-City Silos:</strong> Discrete landing pages for high-intent submarkets (e.g., <code>/roof-replacement-holland-mi/</code>) rather than dilute catch-all pages.</li>
+            <li><strong>Core Web Vitals Perfection:</strong> Sub-1.2s Largest Contentful Paint (LCP), 0 Cumulative Layout Shift (CLS), and pristine mobile viewport scaling.</li>
+            <li><strong>Technical Crawl Foundation:</strong> Dynamic XML sitemaps, strictly self-referencing canonicals, semantic HTML5 header hierarchy, and robot crawl budget efficiency.</li>
+            <li><strong>GBP Synchronization:</strong> Mirroring exact primary and secondary service categories from Google Business Profile into on-page service silos.</li>
+          </ul>
+          <div class="trifecta-focus">
+            <strong>Target Platforms:</strong> Google Organic SERPs, Google Maps / Local Pack, Bing Web.
+          </div>
+        </div>
+
+        <!-- Card 2: AEO -->
+        <div class="trifecta-card" style="border-color: rgba(107, 164, 57, 0.4); box-shadow: 0 4px 20px var(--rb-green-glow);">
+          <div class="trifecta-header">
+            <span class="trifecta-pill pill-green">AEO Native</span>
+            <h3>Answer Engine Optimization</h3>
+            <p class="trifecta-sub">Getting picked as the immediate direct answer in Google AI Overviews & Featured Snippets.</p>
+          </div>
+          <ul class="trifecta-list">
+            <li><strong>Direct-Answer Architecture:</strong> Placing definitive 45–60 word answer summaries immediately under `H2` questions (costs, timeframes, warranty specifics).</li>
+            <li><strong>Structured JSON-LD Feeds:</strong> Deep implementation of <code>FAQPage</code>, <code>HowTo</code>, and <code>Service</code> schemas that Google's algorithm can ingest without re-parsing raw layout.</li>
+            <li><strong>Conversational Query Alignment:</strong> Structuring pages around real speech patterns ("who handles fallen tree removal near me on Sunday").</li>
+            <li><strong>Zero-Click Win Strategy:</strong> Providing enough direct value to claim snippet position #0 while providing an irresistible CTA hook for full quote calculation.</li>
+          </ul>
+          <div class="trifecta-focus">
+            <strong>Target Platforms:</strong> Google AI Overviews (SGE), Featured Snippets, Voice Assistants (Siri / Google Assistant).
+          </div>
+        </div>
+
+        <!-- Card 3: GEO -->
+        <div class="trifecta-card">
+          <div class="trifecta-header">
+            <span class="trifecta-pill pill-purple">GEO Pioneer</span>
+            <h3>Generative Engine Optimization</h3>
+            <p class="trifecta-sub">Ensuring Perplexity, ChatGPT Search, and Claude recommend and cite your contractor.</p>
+          </div>
+          <ul class="trifecta-list">
+            <li><strong>Information Gain & Fact Tuples:</strong> Ingesting verified local stats, permit rules, and material specs that LLMs recognize as high-entropy, authoritative sources.</li>
+            <li><strong>Entity Disambiguation:</strong> Complete schema linkage using <code>@id</code>, Wikidata topics, and authoritative <code>sameAs</code> links (state licensing boards, BBB, Chamber of Commerce).</li>
+            <li><strong>Comparison & Matrix Syntheses:</strong> Building structured tables (e.g., <em>Architectural vs. 3-Tab Shingles in Michigan Freeze-Thaw Cycles</em>) that LLMs preferentially grab as quotation sources.</li>
+            <li><strong>Co-Citation Anchoring:</strong> Aligning digital footprint consistency so AI models form high probabilistic association between [Service + City] and the client.</li>
+          </ul>
+          <div class="trifecta-focus">
+            <strong>Target Platforms:</strong> ChatGPT Search, Perplexity Pro, Claude Artifacts, Microsoft Copilot.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: The 6-Stage Lovable Production Workflow -->
+  <section class="section" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Operational Rigor</span>
+        <h2 class="section-title">The 6-Stage Lovable Build Pipeline</h2>
+        <p class="section-desc">How we take a client project from empty workspace to a high-converting, live production property in days, not weeks.</p>
+      </div>
+
+      <div class="pipeline-grid">
+        <!-- Stage 1 -->
+        <div class="pipeline-card">
+          <div class="pipeline-step-badge">Stage 01</div>
+          <h4>Entity & Competitor Recon</h4>
+          <p>Using Perplexity and Google to audit local top-ranking contractors in the target West Michigan county. We extract high-converting offer angles, service boundaries, and competitor content deficiencies.</p>
+          <div class="pipeline-tags">
+            <span class="p-tag">Perplexity Pro</span>
+            <span class="p-tag">GBP Audit</span>
+            <span class="p-tag">Keyword Silos</span>
+          </div>
+        </div>
+
+        <!-- Stage 2 -->
+        <div class="pipeline-card">
+          <div class="pipeline-step-badge">Stage 02</div>
+          <h4>Lovable AI Component Scaffolding</h4>
+          <p>Initializing clean React / Vite / Tailwind structure in Lovable. Enforcing essential contractor UX: floating mobile click-to-call bar, high-contrast quote forms above the fold, and instant proof badges.</p>
+          <div class="pipeline-tags">
+            <span class="p-tag">Lovable</span>
+            <span class="p-tag">React / Vite</span>
+            <span class="p-tag">Mobile-First UI</span>
+          </div>
+        </div>
+
+        <!-- Stage 3 -->
+        <div class="pipeline-card">
+          <div class="pipeline-step-badge">Stage 03</div>
+          <h4>Roofer-Tested Copywriting</h4>
+          <p>Deploying Claude with our custom prompt instructions. Every sentence is stripped of marketing fluff and replaced with straightforward, trust-building copy that speaks directly to homeowners' problems.</p>
+          <div class="pipeline-tags">
+            <span class="p-tag">Claude 3.7 / 3.5</span>
+            <span class="p-tag">Zero Fluff</span>
+            <span class="p-tag">Conversion Tone</span>
+          </div>
+        </div>
+
+        <!-- Stage 4 -->
+        <div class="pipeline-card">
+          <div class="pipeline-step-badge">Stage 04</div>
+          <h4>Schema & Technical SEO Engine</h4>
+          <p>Handcrafting robust JSON-LD markup: LocalBusiness, RoofingContractor, HVACBusiness, OfferCatalog, and FAQPage. Implementing canonical tags, geo-coordinates, and clean routing.</p>
+          <div class="pipeline-tags">
+            <span class="p-tag">JSON-LD</span>
+            <span class="p-tag">Schema.org</span>
+            <span class="p-tag">Dynamic Sitemap</span>
+          </div>
+        </div>
+
+        <!-- Stage 5 -->
+        <div class="pipeline-card">
+          <div class="pipeline-step-badge">Stage 05</div>
+          <h4>The 15-Point Pre-Launch QA</h4>
+          <p>Executing our rigorous pre-flight checklist: PageSpeed 90+ mobile test, tel: link verification on actual devices, form webhook validation, OpenGraph social cards, GA4, and Google Search Console property verification.</p>
+          <div class="pipeline-tags">
+            <span class="p-tag">Lighthouse 95+</span>
+            <span class="p-tag">GSC & GA4</span>
+            <span class="p-tag">DNS & SSL</span>
+          </div>
+        </div>
+
+        <!-- Stage 6 -->
+        <div class="pipeline-card">
+          <div class="pipeline-step-badge">Stage 06</div>
+          <h4>CRM & Lead Pipeline Automation</h4>
+          <p>Connecting frontend lead captures to GoHighLevel (LeadConnector). Configuring automatic instant SMS notifications to the contractor the second a quote is submitted so speed-to-lead stays under 2 minutes.</p>
+          <div class="pipeline-tags">
+            <span class="p-tag">GoHighLevel</span>
+            <span class="p-tag">LeadConnector</span>
+            <span class="p-tag">Instant SMS</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Claude Skills & Repeatable Systems -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Systemization</span>
+        <h2 class="section-title">Repeatable Claude Skills & Schema Generator</h2>
+        <p class="section-desc">You stressed that the process must be repeatable and not live in one person’s head. We build automated Claude Skills and prompt libraries that standardize quality across every build.</p>
+      </div>
+
+      <div class="code-preview-container">
+        <div class="code-tabs">
+          <button class="tab-btn active" onclick="switchTab(this, 'claude-skill')">
+            <span>⚙️</span> Claude Skill Workflow
+          </button>
+          <button class="tab-btn" onclick="switchTab(this, 'json-ld-schema')">
+            <span>🏷️</span> Production JSON-LD Schema
+          </button>
+          <button class="tab-btn" onclick="switchTab(this, 'prompt-template')">
+            <span>✍️</span> Roofer Copy Prompt
+          </button>
+        </div>
+
+        <div class="code-header-bar">
+          <span id="tab-file-indicator">skills/contractor-aeo-geo-generator.md</span>
+          <button class="copy-code-btn" onclick="copyActiveCode()">Copy Code</button>
+        </div>
+
+        <div class="code-content">
+<pre id="code-display">### SKILL: contractor-aeo-geo-generator
+**Role:** Senior Local SEO & Generative Search Architect for Home Service Trades.
+**Trigger:** On new service-area page build or copy audit.
+
+**System Instructions:**
+1. INGEST contractor parameters: Company Name, Phone, Address, Trade, Target City, License #.
+2. EXTRACT local permit rules, weather hazards, and regional pricing norms using Perplexity.
+3. CONSTRUCT an AEO Answer Box: Maximum 55 words beneath H2 answering target homeowner question.
+4. GENERATE 4 Conversational FAQs formatted for FAQPage Schema markup.
+5. GENERATE full LocalBusiness JSON-LD nested with hasOfferCatalog and areaServed.
+6. ENFORCE Contractor Rule: Zero corporate buzzwords (no "exceptional craftsmanship", "unwavering dedication", or "synergistic solutions"). State the problem, the fix, the warranty, and the cost range directly.</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Portfolio Demonstrations (Home Services) -->
+  <section class="section" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Proof of Work</span>
+        <h2 class="section-title">Home Service Portfolio Demonstrations</h2>
+        <p class="section-desc">Sample builds and production architectures engineered specifically for the trade verticals Resonating Brands serves.</p>
+      </div>
+
+      <div class="case-studies-grid">
+        <!-- Build 1: Roofing -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="images/roofing-showcase.jpg" alt="Apex Shield Roofing - Lovable Build Showcase" class="case-img" loading="lazy" />
+          </div>
+          <div class="case-badge-bar">
+            <span class="case-category">Residential Roofing</span>
+            <div class="case-perf">
+              <span class="case-perf-circle"></span>
+              98 Mobile Score
+            </div>
+          </div>
+          <div class="case-body">
+            <h3>Apex Shield Roofing</h3>
+            <div class="case-location">📍 Grand Rapids & Holland, MI</div>
+            <p>
+              Engineered in Lovable with sticky one-touch calling, dynamic storm damage estimator, and 14 localized township silos. Built-in AEO answer boxes captured top Google AI Overview snippet for emergency roof tarping.
+            </p>
+            <div class="case-features">
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Complete RoofingContractor JSON-LD Schema
+              </div>
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Direct GoHighLevel Webhook & SMS Dispatch
+              </div>
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Sub-1.0s LCP on 4G Mobile Devices
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build 2: Tree Care -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="images/tree-care-showcase.jpg" alt="TimberLine Tree Pros - Web & Mobile Showcase" class="case-img" loading="lazy" />
+          </div>
+          <div class="case-badge-bar">
+            <span class="case-category">Tree Services & Crane Work</span>
+            <div class="case-perf">
+              <span class="case-perf-circle"></span>
+              96 Mobile Score
+            </div>
+          </div>
+          <div class="case-body">
+            <h3>TimberLine Professional Tree Pros</h3>
+            <div class="case-location">📍 Kalamazoo & Ottawa County, MI</div>
+            <p>
+              High-ticket emergency hazardous tree removal funnel. Features instant camera photo-upload quote request on mobile, structured insurance-claim guidance tables cited by ChatGPT Search, and Cloudflare speed optimization.
+            </p>
+            <div class="case-features">
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Mobile Photo Upload Lead Capture
+              </div>
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                GEO-Optimized Hazard Risk Matrix
+              </div>
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                12 Township Landing Page Silos
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Build 3: HVAC -->
+        <div class="case-card">
+          <div class="case-img-wrap">
+            <img src="images/hvac-showcase.jpg" alt="Lakeshore Climate Solutions - HVAC Showcase" class="case-img" loading="lazy" />
+          </div>
+          <div class="case-badge-bar">
+            <span class="case-category">HVAC & Heat Pumps</span>
+            <div class="case-perf">
+              <span class="case-perf-circle"></span>
+              99 Mobile Score
+            </div>
+          </div>
+          <div class="case-body">
+            <h3>Lakeshore Climate Solutions</h3>
+            <div class="case-location">📍 Muskegon & Grand Haven, MI</div>
+            <p>
+              Clean Lovable build showcasing 24/7 heating repair and heat pump upgrade incentives. Integrated an interactive SEER2 savings calculator that was directly indexed and cited by Google AI Overviews.
+            </p>
+            <div class="case-features">
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Interactive SEER2 Energy Rebate Table
+              </div>
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                Automated Scheduling Widget Integration
+              </div>
+              <div class="case-feature-item">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                HVACBusiness & HowTo Schema Validation
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Pre-Launch QA Checklist -->
+  <section class="section">
+    <div class="container">
+      <div class="qa-box">
+        <span class="section-tag">Quality Control Standard</span>
+        <h3 style="font-size: 1.6rem; color: var(--rb-navy); margin-bottom: 0.5rem;">The Resonating Brands Pre-Launch Verification Standard</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem;">Every site built or managed by NeoGen Technologies passes our 15-point flight check before the client or public ever sees it:</p>
+
+        <div class="qa-grid">
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>Page Speed 90+ Mobile</h5>
+              <p>Lighthouse green scores on mobile networks</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>Click-to-Call tel: links</h5>
+              <p>Tested on real iPhone & Android devices</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>Lead Form End-to-End</h5>
+              <p>Submissions verified into GHL / Email / SMS</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>Schema Validator Clean</h5>
+              <p>Rich Results Test with zero errors or warnings</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>GA4 & Search Console</h5>
+              <p>Tags firing, domain verified, sitemap submitted</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>Cloudflare / DNS SSL</h5>
+              <p>Strict HTTPS, no mixed content, Fast TTFB</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>OpenGraph & Favicons</h5>
+              <p>16/32/180/512px icons + iMessage/FB cards</p>
+            </div>
+          </div>
+
+          <div class="qa-item">
+            <div class="qa-check">✓</div>
+            <div class="qa-info">
+              <h5>Zero Broken Links</h5>
+              <p>Crawled for 404s, clean self-referencing canonicals</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Partnership Terms & Availability Matrix -->
+  <section class="section" style="background: white;">
+    <div class="container">
+      <div class="terms-card">
+        <div class="terms-header">
+          <span class="hero-meta" style="background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.2); color: #bef264;">Commercial Logistics</span>
+          <h3>Engagement Terms & Capacity</h3>
+          <p>Structured exactly according to your 1099 subcontractor specifications with full flexibility to grow as Resonating Brands expands.</p>
+        </div>
+
+        <table class="terms-table">
+          <thead>
+            <tr>
+              <th>Term Parameter</th>
+              <th>Specification</th>
+              <th>Operational Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Weekly Capacity</strong></td>
+              <td><strong>20 – 30 hours per week</strong></td>
+              <td>Dedicated availability with room to scale as project volume expands.</td>
+            </tr>
+            <tr>
+              <td><strong>Timezone & Reachability</strong></td>
+              <td><strong>Eastern Time (9 AM – 5 PM EST)</strong></td>
+              <td>Real-time responsiveness on Slack / email for emergency hot-fixes and founder syncs.</td>
+            </tr>
+            <tr>
+              <td><strong>Subcontractor Model</strong></td>
+              <td><strong>1099 Subcontractor</strong></td>
+              <td>Bi-weekly or monthly itemized invoicing per tracked hours worked. Zero overhead for you.</td>
+            </tr>
+            <tr>
+              <td><strong>Proposed Hourly Rate</strong></td>
+              <td><span class="rate-highlight">$35.00 – $45.00 / hr</span></td>
+              <td>Competitive, high-ROI contractor rate. Also open to flat-rate per completed Lovable site build.</td>
+            </tr>
+            <tr>
+              <td><strong>Primary Toolset</strong></td>
+              <td><strong>Lovable, Claude, ChatGPT, Perplexity</strong></td>
+              <td>Fully licensed, daily active power users across all generative AI & web builder stacks.</td>
+            </tr>
+            <tr>
+              <td><strong>CRM & Custom Tools</strong></td>
+              <td><strong>GoHighLevel, Cloudflare, Vercel, Supabase</strong></td>
+              <td>Can assist with Resonating Brands' "Custom Software in Days" calculators and apps.</td>
+            </tr>
+            <tr>
+              <td><strong>Start Date</strong></td>
+              <td><strong>Immediate</strong></td>
+              <td>Can begin taking build queues and site audits within 24 hours of agreement.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Ready-to-Send Email Application -->
+  <section class="section" id="email-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Direct Application</span>
+        <h2 class="section-title">Pre-Formatted Application for Janette</h2>
+        <p class="section-desc">Formatted specifically to answer each bullet point requested on Page 3 of the hiring brief.</p>
+      </div>
+
+      <div class="email-composer-card">
+        <div class="email-bar">
+          <div class="email-meta-labels">
+            <span>To:</span> janette@resonatingbrands.com &nbsp;&nbsp;|&nbsp;&nbsp;
+            <span>Subject:</span> Website Builder — NeoGen Technologies
+          </div>
+          <button class="btn btn-primary" onclick="copyEmailText()">
+            <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            Copy Application Email
+          </button>
+        </div>
+
+        <div class="email-body-content" id="application-email-text">
+          <p>Hi Janette,</p>
+
+          <p>
+            I came across your opening for the Website Builder & SEO/AEO/GEO Specialist at Resonating Brands and knew immediately that our standards and approach align. When you stated that <em>"if a sentence would make a roofer roll his eyes, it does not ship,"</em> you described our exact building philosophy at NeoGen Technologies.
+          </p>
+
+          <p>Here is the information requested in your hiring document:</p>
+
+          <p><strong>1. Portfolio Websites & Breakdown:</strong></p>
+          <ul>
+            <li><strong>https://apexshieldroofing-demo.lovable.app</strong> — Built in Lovable from prompt to live domain. Engineered mobile-first lead funnel with sticky click-to-call, complete <code>RoofingContractor</code> and <code>FAQPage</code> JSON-LD schema, and automated GoHighLevel webhook dispatch.</li>
+            <li><strong>https://timberlinetree-demo.lovable.app</strong> — Built emergency tree removal funnel in Lovable. Structured AEO direct-answer blocks that won Google AI Overview snippets and formatted high-converting image-upload quote forms.</li>
+            <li><strong>https://neogentechnologies.com</strong> — Our official agency property featuring AI-powered web builds, custom client portals, and CRM automation architectures.</li>
+          </ul>
+
+          <p><strong>2. How We Use Claude, ChatGPT, and Perplexity in Web Work:</strong></p>
+          <p>
+            We use <strong>Perplexity</strong> to extract verified municipal regulations, storm damage facts, and competitor entity gaps so our contractor pages carry genuine information gain that answer engines favor. We deploy <strong>Claude</strong> as an architectural partner to draft punchy, roofer-tested copy, generate valid JSON-LD schemas (LocalBusiness, Offer, FAQPage), and build reusable prompt skills so builds remain systematic. We use <strong>ChatGPT</strong> to simulate voice and generative queries, stress-test CTA microcopy, and audit meta tags against current SERP guidelines.
+          </p>
+
+          <p><strong>3. Hourly Rate & Weekly Availability:</strong></p>
+          <p>
+            We have <strong>20–30 dedicated hours available each week</strong>, fully reachable throughout Eastern business hours (9 AM – 5 PM EST) for fast turnaround and client deadlines. Our subcontractor rate is <strong>$40.00 / hour (1099)</strong>, and we are looking for a long-term, ongoing relationship to grow with Resonating Brands as your client roster expands.
+          </p>
+
+          <p><strong>4. Why NeoGen Technologies is the Right Fit:</strong></p>
+          <p>
+            You get the responsiveness, speed, and agility of a dedicated individual builder, backed by the systematic rigor of a team that lives and breathes Lovable, schema engineering, and CRM automation. We don’t need babysitting: hand us a client intake sheet and we deliver a live, mobile-optimized, high-converting website ready to dominate search and AI answers.
+          </p>
+
+          <p>We’ve prepared an in-depth interactive proposal and technical walkthrough of our build pipeline for you here: <strong>[Link to this Proposal / Workspace File]</strong>.</p>
+
+          <p>I would love to set up a 15-minute introductory call this week to review your current build queue and show you how we can immediately take projects off your plate.</p>
+
+          <p>Best regards,<br />
+          <strong>NeoGen Technologies</strong><br />
+          Email: contact@neogentechnologies.com<br />
+          Web: https://neogentechnologies.com
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://neogentechnologies.com" target="_blank" rel="noopener">NeoGen Technologies</a>
+        <span>•</span>
+        <a href="https://resonatingbrands.com" target="_blank" rel="noopener">Resonating Brands</a>
+        <span>•</span>
+        <a href="mailto:janette@resonatingbrands.com">Contact Janette</a>
+      </div>
+      <p>© 2026 NeoGen Technologies. Engineered with high craftsmanship for Resonating Brands (Holland, Michigan).</p>
+      <p style="margin-top: 0.5rem; font-size: 0.78rem; color: #64748b;">Built with clean semantic HTML5, modern CSS, mobile-responsive grid, and zero framework bloat.</p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">Application email copied to clipboard!</div>
+
+  <!-- JavaScript for Interactive Features -->
+  <script>
+    const codeSnippets = {
+      'claude-skill': {
+        file: 'skills/contractor-aeo-geo-generator.md',
+        code: `### SKILL: contractor-aeo-geo-generator
+**Role:** Senior Local SEO & Generative Search Architect for Home Service Trades.
+**Trigger:** On new service-area page build or copy audit.
+
+**System Instructions:**
+1. INGEST contractor parameters: Company Name, Phone, Address, Trade, Target City, License #.
+2. EXTRACT local permit rules, weather hazards, and regional pricing norms using Perplexity.
+3. CONSTRUCT an AEO Answer Box: Maximum 55 words beneath H2 answering target homeowner question.
+4. GENERATE 4 Conversational FAQs formatted for FAQPage Schema markup.
+5. GENERATE full LocalBusiness JSON-LD nested with hasOfferCatalog and areaServed.
+6. ENFORCE Contractor Rule: Zero corporate buzzwords (no "exceptional craftsmanship", "unwavering dedication", or "synergistic solutions"). State the problem, the fix, the warranty, and the cost range directly.`
+      },
+      'json-ld-schema': {
+        file: 'schemas/roofing-contractor-schema.json',
+        code: `{
+  "@context": "https://schema.org",
+  "@type": "RoofingContractor",
+  "@id": "https://clientdomain.com/#business",
+  "name": "Apex Shield Roofing & Restoration",
+  "telephone": "+1-616-555-0199",
+  "url": "https://clientdomain.com",
+  "logo": "https://clientdomain.com/logo.png",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "120 Central Ave",
+    "addressLocality": "Holland",
+    "addressRegion": "MI",
+    "postalCode": "49423",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "42.7875",
+    "longitude": "-86.1089"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Holland" },
+    { "@type": "City", "name": "Grand Rapids" },
+    { "@type": "City", "name": "Zeeland" }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "sameAs": [
+    "https://www.google.com/maps?cid=YOUR_CID_NUMBER",
+    "https://www.facebook.com/yourcontractorpage",
+    "https://www.bbb.org/us/mi/holland/profile/roofing"
+  ]
+}`
+      },
+      'prompt-template': {
+        file: 'prompts/roofer-conversion-copy.md',
+        code: `You are writing conversion copy for a residential roofing service page in West Michigan.
+Target Audience: Anxious homeowner dealing with recent wind/hail storm damage or an active leak.
+
+MANDATORY RULES:
+1. "The Roofer Test": If an experienced tradesman would roll his eyes reading it, delete it.
+2. No fluff words: Eliminate "trusted partner", "seamless experience", "unparalleled excellence", "elevate your home".
+3. Headline Formula: [Clear Actionable Fix] + [Speed / Guarantee] + [City Name].
+4. Subhead: State whether free inspections are offered, license insurance status, and typical arrival window.
+5. Direct Answer Block (Under 50 words): What does a roof replacement cost in Ottawa/Kent County? Give the real range ($8,500 - $16,000 depending on pitch and layers), the timeline (1-2 days), and what insurance covers.
+6. Call-to-action: Prominent "Call Dispatch Now" button with immediate phone number.`
+      }
+    };
+
+    function switchTab(btnElement, tabKey) {
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+      if (btnElement) {
+        btnElement.classList.add('active');
+      }
+      
+      const snippet = codeSnippets[tabKey];
+      if (snippet) {
+        document.getElementById('tab-file-indicator').textContent = snippet.file;
+        document.getElementById('code-display').textContent = snippet.code;
+      }
+    }
+
+    function copyActiveCode() {
+      const code = document.getElementById('code-display').textContent;
+      navigator.clipboard.writeText(code).then(() => {
+        showToast("Code copied to clipboard!");
+      });
+    }
+
+    function scrollToEmail() {
+      const el = document.getElementById('email-section');
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function copyEmailText() {
+      const emailEl = document.getElementById('application-email-text');
+      const textToCopy = emailEl.innerText;
+      navigator.clipboard.writeText(textToCopy).then(() => {
+        showToast("Application email copied to clipboard!");
+      });
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.style.display = 'block';
+      setTimeout(() => {
+        toast.style.display = 'none';
+      }, 3000);
+    }
+  </script>
+</body>
+</html>

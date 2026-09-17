@@ -1,0 +1,21 @@
+{
+  "name": "neogen-resonating-brands-proposal",
+  "version": "1.0.0",
+  "description": "Interactive HTML5 proposal for Resonating Brands by NeoGen Technologies",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "proposal",
+    "resonating-brands",
+    "neogen-technologies",
+    "lovable",
+    "seo",
+    "aeo",
+    "geo"
+  ],
+  "author": "NeoGen Technologies",
+  "license": "ISC"
+}
